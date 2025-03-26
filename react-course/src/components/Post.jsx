@@ -1,6 +1,6 @@
 import React from "react";
 
-export function Post(){
+export function Post({postNumber}){
 
     const text = 'hola a todos'
     const number= 5
@@ -15,7 +15,7 @@ export function Post(){
     }
     return(
         <div>
-            <h1>Post 1</h1>
+            <h1>Post {postNumber}</h1>
             <h2>
                 Texto :{text} 
             </h2>
