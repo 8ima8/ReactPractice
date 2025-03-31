@@ -5,6 +5,7 @@ import './App.css'
 import React from 'react'
 import { Post } from './components/Post'
 import { UserCard } from './components/UserCard'
+import { Button } from './components/Button'
 
 
 function App() {
@@ -12,9 +13,13 @@ function App() {
 
   return (
     <>
+      <Button text='Click me'/>
+      <Button text='Pay'/>
+      <Button text='click' name='Pepe'/>
       <p>Hola Mundo</p>
       <Post postNumber={1} />
       <Post postNumber={2}/>
+
       <UserCard 
         name='Felipe'
         amount={2000} 
@@ -26,7 +31,7 @@ function App() {
         amount={100000} 
         married={true} 
         array ={[90,95.5,80]} 
-        address={{street: 'Obrajes', houseNumber:200, city:'Santa Cruz'}}  />
+        address={{street: 'Obrajes', houseNumber:200, city:'Santa Cruz'}}  />     
     </>
   )
 }

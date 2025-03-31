@@ -1,5 +1,5 @@
 import React from "react";
-
+// aqui se practica como armar un componente
 export function Post({postNumber}){
 
     const text = 'hola a todos'

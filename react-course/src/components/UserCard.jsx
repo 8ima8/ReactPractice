@@ -1,5 +1,5 @@
 import React from "react";
-
+// Aqui practicamos como envair y recibir props
 export function UserCard({name, amount, married, array, address}){
     return(
         <div>
