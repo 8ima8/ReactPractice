@@ -18,6 +18,3 @@ Button.PropTypes = {
     text : PropTypes.string.isRequired
 }
 
-Button.defaultProps = {
-    name: 'Some User'
-}

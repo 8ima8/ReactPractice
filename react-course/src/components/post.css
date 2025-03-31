@@ -1,0 +1,23 @@
+.married {
+    background: peru;
+    padding: 10px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    border-radius: 20px;
+
+}
+
+.score-high{
+    background: green;
+    border-radius: 20px;
+    text-align: left;
+    padding: 10px;
+}
+
+.score-low{
+    background: red;
+    border-radius: 20px;
+    text-align: left;
+    padding: 10px;
+}
