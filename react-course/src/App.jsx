@@ -5,6 +5,7 @@ import React from 'react'
 import { Post } from './components/Post'
 import { UserCard } from './components/UserCard'
 import { Button } from './components/Button'
+import { PostApi } from './components/PostApi'
 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
         married={true} 
         array ={[90,95.5,80]} 
         address={{street: 'Obrajes', houseNumber:200, city:'Santa Cruz'}}  />     
+        <PostApi/>
     </>
   )
 }

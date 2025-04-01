@@ -1,5 +1,5 @@
 import React from "react";
-import './post.css'
+import './usercard.css'
 // Aqui practicamos como envair y recibir props
 export function UserCard({name, amount, married, array, address}){
     const nameStyles={
