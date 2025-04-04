@@ -6,6 +6,7 @@ import { Post } from './components/Post'
 import { UserCard } from './components/UserCard'
 import { Button } from './components/Button'
 import { PostApi } from './components/PostApi'
+import { UserArray } from './components/UserArray'
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
         array ={[90,95.5,80]} 
         address={{street: 'Obrajes', houseNumber:200, city:'Santa Cruz'}}  />     
         <PostApi/>
+        <UserArray/>
     </>
   )
 }

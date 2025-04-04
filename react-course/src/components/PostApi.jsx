@@ -1,5 +1,6 @@
 import React from "react";
-
+import {VscGitFetch} from "react-icons/vsc";
+import {VscBug} from "react-icons/vsc";
 export function PostApi(){
 
     const handelClick=(e)=>{
@@ -12,7 +13,7 @@ export function PostApi(){
     return(
         <div>
             <h1>FETCH & API</h1>
-            <button onClick={handelClick}>Jalar Datos </button>
+            <button onClick={handelClick}><VscGitFetch/> Jalar Datos  <VscBug/> </button>
         </div>
     )
 }
