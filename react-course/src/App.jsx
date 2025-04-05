@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState , useEffect} from 'react'
 
 import './App.css'
 import React from 'react'
@@ -7,9 +7,12 @@ import { UserCard } from './components/UserCard'
 import { Button } from './components/Button'
 import { PostApi } from './components/PostApi'
 import { UserArray } from './components/UserArray'
+import {  UseStateHook } from './components/UseStateHook'
+import { UseEffectHooks } from './components/UseEffectHook'
 
 
 function App() {
+
 
 
   return (
@@ -35,6 +38,8 @@ function App() {
         address={{street: 'Obrajes', houseNumber:200, city:'Santa Cruz'}}  />     
         <PostApi/>
         <UserArray/>
+        <UseStateHook/>
+        <UseEffectHooks/>
     </>
   )
 }
