@@ -14,12 +14,12 @@ function App(){
 
 
 
-  function createTask(taskTitle){
+  function createTask(taskTitle,taskDescription){
     
     const newTask = {
       id:tasks.length+1,
       title: taskTitle,
-      description:"descripcion"
+      description:taskDescription
     }
 
     setTasks([...tasks,newTask])
