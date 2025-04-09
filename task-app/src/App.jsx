@@ -6,31 +6,11 @@ import { tasks as data } from "./mocks/tasks"
 
 function App(){
 
-  const [tasks, setTasks] = useState([])
-
-      useEffect(() => {
-      setTasks(data)
-      }, [])
-
-
-
-  function createTask(taskTitle,taskDescription){
-    
-    const newTask = {
-      id:tasks.length+1,
-      title: taskTitle,
-      description:taskDescription
-    }
-
-    setTasks([...tasks,newTask])
-  }
-
-
 
   return(
     <>
-    <TaskForm createTask={createTask}/>
-    <TaskList tasks={tasks}/>
+    <TaskForm/>
+    <TaskList/>
     </>
 
   )

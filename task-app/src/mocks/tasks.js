@@ -5,12 +5,12 @@ export const tasks = [
         description: "first tasks description"       
     },
     {
-        id: 2,
+        id: 1,
         title: "Second Task",
         description: "second tasks description"
     },
     {
-        id: 3,
+        id: 2,
         title: "Third Task",
         description: "third tasks description"
     }
