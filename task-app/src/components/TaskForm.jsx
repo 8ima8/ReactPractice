@@ -27,19 +27,22 @@ export function TaskForm() {
 
 return (
     
-        <form onSubmit={handleSubmit}> 
-            <input placeholder='enter a title' 
+    <div className='max-w-md mx-auto'>
+        <form onSubmit={handleSubmit} className='bg-slate-800 p-10 mb-4'> 
+            <h1 className='text-2xl font-bold text-white mb-3'>Create Task</h1>
+            <input  className='bg-slate-300 p-3 w-full mb-2'placeholder='enter a title' 
             onChange={handleTitleChange}
             value={title}
             autoFocus
             />
-            <textarea style={{marginLeft:"10px"}} 
+            <textarea className='bg-slate-300 p-3 w-full mb-2' 
             placeholder='write tasks description' 
             onChange={handleDescriptionChange}
             value={description}>
             </textarea>
-            <button style={{margin:"15px"}}>Save</button>
+            <button className='bg-indigo-500 text-white px-3 py-1 w-full' >Save</button>
         </form>
+    </div>
 
     
 )

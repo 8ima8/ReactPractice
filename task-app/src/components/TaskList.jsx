@@ -10,7 +10,7 @@ export function TaskList() {
 
 
     if(tasks.length===0){
-        return <h1>No TASKS</h1>
+        return <h1 className='text-white text-4xl font-bold text-center p-5'>No TASKS</h1>
     }
     
 
@@ -19,7 +19,7 @@ export function TaskList() {
     //tasks.forEach(task=>console.log(task))
 
 return (
-    <div>
+    <div className='grid grid-cols-4 gap-2'>
         {
             tasks.map((task)=>(
                 <TaskCard key={task.id} task={task}/>
